@@ -4,9 +4,6 @@ class Solution(object):
         :type strs: List[str]
         :rtype: str
         """
-        if not strs:
-            return ""
-        
         prefix = strs[0]
         
         for s in strs[1:]:
